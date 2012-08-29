@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Welcome!"
+date: 2012-08-22 19:51
+comments: true
+categories: news
+---
+
+Welcome to the home of What's Shaking, NZ? - a quake monitoring app designed for New Zealand. It is currently available on the [Windows Phone Marketplace](http://www.windowsphone.com/en-NZ/apps/8c5077db-6a9a-4c29-b095-42fea91874d9) with an Android version on the way.
+
+Features include:
+
+- Uses the latest [Geonet Rapid](http://beta.geonet.org.nz/quakes/felt) data feed for up-to-the-minute quake information.
+- Both list and a map overviews of the latest quakes.
+- Allows you to select how many quakes you'd like to see presented at once.
+- And more!
+
+For more detail (and screenshots!), see the [Windows Phone](/windows-phone) page.

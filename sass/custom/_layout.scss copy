@@ -1,0 +1,58 @@
+// Here you can easily change your sites's layout.
+// To give it a try, uncomment some of the lines below, make changes, rebuild your blog, and see how it works.
+
+//$header-font-size: 1em;
+$header-padding-top: 1em;
+//$header-padding-bottom: 1.5em;
+
+//$max-width: 1350px;
+//$indented-lists: true;
+
+// Padding used for layout margins
+//$pad-min: 18px;
+//$pad-narrow: 25px;
+//$pad-medium: 35px;
+//$pad-wide: 55px;
+
+// Sidebar widths used in media queries
+//$sidebar-width-medium: 240px;
+//$sidebar-pad-medium: 15px;
+//$sidebar-pad-wide: 20px;
+//$sidebar-width-wide: 300px;
+
+body > header h1 {
+      padding-left:1.76em;
+      text-align:right;
+      @media only screen and (min-width: 432px) {
+              text-align:left;
+      }
+      @media only screen and (min-width: 768px) {
+              padding-left:1em;
+      }
+}
+
+body > header h2 {
+      padding-left:5.62em;
+	  padding-top:0.6em;
+      text-align:right;
+      @media only screen and (min-width: 432px) {
+              text-align:left;
+              padding-left:3.9em;
+      }
+      @media only screen and (min-width: 768px) {
+              padding-left:2.9em;
+      }
+}
+
+body > header h1:before {
+      content:"";
+      position:absolute;
+      left:0em;
+      right:0em;
+      top:0.2em;
+	  height:150px;
+      overflow:hidden;
+      text-align:right;
+//      background-image:url('/images/wsnz_header.png');
+      background-repeat:no-repeat;
+}
