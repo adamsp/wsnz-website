@@ -65,9 +65,9 @@ body > header h1:before {
 	left:0em;
 	overflow:hidden;
 	pointer-events:none;
-	height:image-height('wsnz_header_red.png');
+	height:image-height('header.png');
 	width: 100%;
-	@include replace-text('wsnz_header_red.png');
+	@include replace-text('header.png');
 	@include background-size(100%);
 	background-repeat:no-repeat;
 	@media only screen and (min-width: 432px) {

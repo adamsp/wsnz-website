@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://www.whatsshaking.co.nz
+url: http://adamsp.github.com/wsnz-website
 title: What's Shaking, NZ?
 subtitle: Quake monitoring app for Android and Windows Phone 7.
 author: Adam Speakman
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /wsnz-website/atom.xml
+subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,10 +26,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /wsnz-website
+root: /
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public/wsnz-website
+destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
