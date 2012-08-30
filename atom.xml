@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[What's Shaking, NZ?]]></title>
+  <link href="http://adamsp.github.com/wsnz-website/atom.xml" rel="self"/>
+  <link href="http://adamsp.github.com/wsnz-website/"/>
+  <updated>2012-08-30T20:25:30+12:00</updated>
+  <id>http://adamsp.github.com/wsnz-website/</id>
+  <author>
+    <name><![CDATA[Adam Speakman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome!]]></title>
+    <link href="http://adamsp.github.com/wsnz-website/blog/2012/08/22/welcome/"/>
+    <updated>2012-08-22T19:51:00+12:00</updated>
+    <id>http://adamsp.github.com/wsnz-website/blog/2012/08/22/welcome</id>
+    <content type="html"><![CDATA[<p>Welcome to the home of What&#8217;s Shaking, NZ? - a quake monitoring app designed for New Zealand. It is currently available on the <a href="http://www.windowsphone.com/en-NZ/apps/8c5077db-6a9a-4c29-b095-42fea91874d9">Windows Phone Marketplace</a> with an Android version on the way.</p>
+
+<p>Features include:</p>
+
+<ul>
+<li>Uses the latest <a href="http://beta.geonet.org.nz/quakes/felt">Geonet Rapid</a> data feed for up-to-the-minute quake information.</li>
+<li>Both list and a map overviews of the latest quakes.</li>
+<li>Allows you to select how many quakes you&#8217;d like to see presented at once.</li>
+<li>And more!</li>
+</ul>
+
+
+<p>For more detail (and screenshots!), see the <a href="http://adamsp.github.com/wsnz-website/windows-phone">Windows Phone</a> page.</p>
+]]></content>
+  </entry>
+  
+</feed>
