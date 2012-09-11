@@ -8,6 +8,7 @@ subtitle: Quake monitoring app for Android and Windows Phone 7.
 author: Adam Speakman
 simple_search: http://google.com/search
 description:
+domain: http://www.whatsshaking.co.nz
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
