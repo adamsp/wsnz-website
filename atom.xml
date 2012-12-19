@@ -4,7 +4,7 @@
   <title><![CDATA[What's Shaking, NZ?]]></title>
   <link href="http://adamsp.github.com/wsnz-website/atom.xml" rel="self"/>
   <link href="http://adamsp.github.com/wsnz-website/"/>
-  <updated>2012-12-14T17:04:27+13:00</updated>
+  <updated>2012-12-18T17:02:02-08:00</updated>
   <id>http://adamsp.github.com/wsnz-website/</id>
   <author>
     <name><![CDATA[Adam Speakman]]></name>
@@ -14,9 +14,35 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Windows Phone 8 Initial Release]]></title>
+    <link href="http://adamsp.github.com/wsnz-website/blog/2012/12/18/windows-phone-8-initial-release/"/>
+    <updated>2012-12-18T16:09:00-08:00</updated>
+    <id>http://adamsp.github.com/wsnz-website/blog/2012/12/18/windows-phone-8-initial-release</id>
+    <content type="html"><![CDATA[<p>Today the Windows Phone 8 version of What&#8217;s Shaking, NZ? was released - get it on the <a href="http://www.windowsphone.com/en-nz/store/app/what-shaking-nz/8c5077db-6a9a-4c29-b095-42fea91874d9">Windows Phone App Store now</a>. If you&#8217;ve been using the Windows Phone 7 version on your Windows Phone 8 handset be sure to upgrade, as this new version is much faster, taking advantage of a number of features only available on Windows Phone 8.</p>
+
+<!-- more -->
+
+
+<p>In the recent <a href="../../14/windows-phone-7-update-1-dot-3/">post</a> detailing the recent Windows Phone 7 update, I talked about the new features added in that update - quake status (reviewed/automatically reported), quake location and the option to show <em>all</em> quakes. These features are of course also present in this new Windows Phone 8 version.</p>
+
+<p>On top of these new features though (which you can read about in detail in the post linked above, or on the <a href="../../../../../windows-phone/">Windows Phone</a> page) are of course the WP8-specific features.</p>
+
+<p>The first time you start What&#8217;s Shaking, NZ? you may notice that the app starts up faster - it no longer has a startup screen. Microsoft have now made these optional, which is useful for apps (such as What&#8217;s Shaking, NZ?) that don&#8217;t have a lot to do during startup. The list view should now be a little faster as well, as it uses a new, faster control. This wasn&#8217;t exactly a problem previously, but every bit of performance is important.</p>
+
+<p>I&#8217;ve also enabled what&#8217;s called &#8220;fast app resume&#8221; - meaning that if the app is running already, you can now get back into it quickly by tapping the tile on the home screen. Previously this would terminate the old instance of the app and create a new one, which took quite some time. Now it simply brings the existing one to the foreground (which you could do previously by holding down the Back key and selecting the app from those shown). This makes for a much nicer experience when switching between applications, as the phone is much more responsive and apps appear to load a lot faster.</p>
+
+<p>One of the biggest features Windows Phone 8 has over WP7 was multiple live tile sizes - these are included in this initial release. The medium tile shows you the same information as before (number of quakes in the last 24 hours, with magnitude, depth and time of the latest quake on the back of the tile), while the large tile now also shows you the location of the latest quake.</p>
+
+<p>Those features (along with those mentioned in the <a href="../../14/windows-phone-7-update-1-dot-3/">previous post</a>) are the most noticeable ones. In addition, there have been quite a few changes behind the scenes - bug fixes, changes, improvements, and preparations for future features. You can have a look at these on <a href="https://github.com/adamsp/wsnz-windowsphone/commits/master">Github</a> if you&#8217;re interested.</p>
+
+<p>Feel free to <a href="http://twitter.com/WhatsShakingNZ">tweet me</a> if you have any comments or suggestions, or you can email me direct from the app.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Windows Phone 7 update 1.3]]></title>
     <link href="http://adamsp.github.com/wsnz-website/blog/2012/12/14/windows-phone-7-update-1-dot-3/"/>
-    <updated>2012-12-14T16:25:00+13:00</updated>
+    <updated>2012-12-14T16:25:00-08:00</updated>
     <id>http://adamsp.github.com/wsnz-website/blog/2012/12/14/windows-phone-7-update-1-dot-3</id>
     <content type="html"><![CDATA[<p>The latest version of What&#8217;s Shaking, NZ? for Windows Phone was <a href="http://www.windowsphone.com/en-nz/store/app/what-shaking-nz/8c5077db-6a9a-4c29-b095-42fea91874d9">published today</a>. This version has a few requested features, as well as a bit of additional information to keep you better informed about the earthquakes around New Zealand. Read on to find out more.</p>
 
@@ -40,7 +66,7 @@
   <entry>
     <title type="html"><![CDATA[Android version now available!]]></title>
     <link href="http://adamsp.github.com/wsnz-website/blog/2012/10/06/android-version-now-available/"/>
-    <updated>2012-10-06T14:29:00+13:00</updated>
+    <updated>2012-10-06T14:29:00-07:00</updated>
     <id>http://adamsp.github.com/wsnz-website/blog/2012/10/06/android-version-now-available</id>
     <content type="html"><![CDATA[<p>Today the Android version of What&#8217;s Shaking, NZ? was released on the <a href="https://play.google.com/store/apps/details?id=speakman.whatsshakingnz">Google Play Store</a>.</p>
 
@@ -53,7 +79,7 @@
   <entry>
     <title type="html"><![CDATA[Welcome!]]></title>
     <link href="http://adamsp.github.com/wsnz-website/blog/2012/08/22/welcome/"/>
-    <updated>2012-08-22T19:51:00+12:00</updated>
+    <updated>2012-08-22T19:51:00-07:00</updated>
     <id>http://adamsp.github.com/wsnz-website/blog/2012/08/22/welcome</id>
     <content type="html"><![CDATA[<p>Welcome to the home of What&#8217;s Shaking, NZ? - a quake monitoring app designed for New Zealand. It is currently available on the <a href="http://www.windowsphone.com/en-NZ/apps/8c5077db-6a9a-4c29-b095-42fea91874d9">Windows Phone Marketplace</a> with an Android version on the way.</p>
 

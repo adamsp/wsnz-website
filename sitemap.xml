@@ -2,38 +2,44 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://adamsp.github.com/wsnz-website/blog/2012/08/22/welcome/</loc>
-        <lastmod>2012-08-30T08:38:30+12:00</lastmod>
+        <lastmod>2012-08-29T13:38:30-07:00</lastmod>
     </url>
     <url>
         <loc>
             http://adamsp.github.com/wsnz-website/blog/2012/10/06/android-version-now-available/
         </loc>
-        <lastmod>2012-10-06T14:37:28+13:00</lastmod>
+        <lastmod>2012-10-05T18:37:28-07:00</lastmod>
     </url>
     <url>
         <loc>
             http://adamsp.github.com/wsnz-website/blog/2012/12/14/windows-phone-7-update-1-dot-3/
         </loc>
-        <lastmod>2012-12-14T17:02:09+13:00</lastmod>
+        <lastmod>2012-12-18T16:15:34-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://adamsp.github.com/wsnz-website/blog/2012/12/18/windows-phone-8-initial-release/
+        </loc>
+        <lastmod>2012-12-18T16:43:02-08:00</lastmod>
     </url>
     <url>
         <loc>http://adamsp.github.com/wsnz-website/about/</loc>
-        <lastmod>2012-09-11T22:15:17+12:00</lastmod>
+        <lastmod>2012-09-11T03:15:17-07:00</lastmod>
     </url>
     <url>
         <loc>http://adamsp.github.com/wsnz-website/android/</loc>
-        <lastmod>2012-10-06T14:28:13+13:00</lastmod>
+        <lastmod>2012-10-05T18:28:13-07:00</lastmod>
     </url>
     <url>
         <loc>http://adamsp.github.com/wsnz-website/blog/archives/</loc>
-        <lastmod>2012-12-14T17:02:09+13:00</lastmod>
+        <lastmod>2012-12-18T16:43:02-08:00</lastmod>
     </url>
     <url>
         <loc>http://adamsp.github.com/wsnz-website/</loc>
-        <lastmod>2012-12-14T17:02:09+13:00</lastmod>
+        <lastmod>2012-12-18T16:43:02-08:00</lastmod>
     </url>
     <url>
         <loc>http://adamsp.github.com/wsnz-website/windows-phone/</loc>
-        <lastmod>2012-12-14T16:24:57+13:00</lastmod>
+        <lastmod>2012-12-18T17:01:45-08:00</lastmod>
     </url>
 </urlset>
