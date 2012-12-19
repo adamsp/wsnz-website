@@ -3,7 +3,7 @@ layout: post
 title: "Windows Phone 7 update 1.3"
 date: 2012-12-14 16:25
 comments: true
-categories: 
+categories: [news, windows-phone, windows-phone-7]
 ---
 The latest version of What's Shaking, NZ? for Windows Phone was [published today](http://www.windowsphone.com/en-nz/store/app/what-shaking-nz/8c5077db-6a9a-4c29-b095-42fea91874d9). This version has a few requested features, as well as a bit of additional information to keep you better informed about the earthquakes around New Zealand. Read on to find out more.
 
