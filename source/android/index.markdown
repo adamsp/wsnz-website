@@ -18,7 +18,7 @@ Utilising the Geonet Rapid data feed, What's Shaking, NZ? brings up to date quak
 - Set a notification magnitude, if you don't want to be alerted about smaller quakes.
 - Can be set up to check for new quakes every 15 mins, 30 mins, 1, 2, 6 or 24 hours.
 
-[{% img bottom screens/ss_01.png 168 280 What's Shaking, NZ? List View %}](screens/ss_01.png)
-[{% img bottom screens/ss_02.png 168 280 What's Shaking, NZ? Map View %}](screens/ss_02.png)
-[{% img bottom screens/ss_03.png 168 280 What's Shaking, NZ? Quake View %}](screens/ss_03.png)
-[{% img bottom screens/ss_04.png 168 280 What's Shaking, NZ? Settings %}](screens/ss_04.png)
+[{% img bottom screens/ss_01.PNG 168 280 What's Shaking, NZ? List View %}](screens/ss_01.PNG)
+[{% img bottom screens/ss_02.PNG 168 280 What's Shaking, NZ? Map View %}](screens/ss_02.PNG)
+[{% img bottom screens/ss_03.PNG 168 280 What's Shaking, NZ? Quake View %}](screens/ss_03.PNG)
+[{% img bottom screens/ss_04.PNG 168 280 What's Shaking, NZ? Settings %}](screens/ss_04.PNG)
