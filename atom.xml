@@ -4,7 +4,7 @@
   <title><![CDATA[What's Shaking, NZ?]]></title>
   <link href="http://adamsp.github.com/wsnz-website/atom.xml" rel="self"/>
   <link href="http://adamsp.github.com/wsnz-website/"/>
-  <updated>2013-07-22T19:57:47+12:00</updated>
+  <updated>2013-09-10T20:27:06+12:00</updated>
   <id>http://adamsp.github.com/wsnz-website/</id>
   <author>
     <name><![CDATA[Adam Speakman]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Android UI Refresh and Tablet Compatibility]]></title>
+    <link href="http://adamsp.github.com/wsnz-website/blog/2013/09/10/android-ui-refresh-and-tablet-compatibility/"/>
+    <updated>2013-09-10T19:49:00+12:00</updated>
+    <id>http://adamsp.github.com/wsnz-website/blog/2013/09/10/android-ui-refresh-and-tablet-compatibility</id>
+    <content type="html"><![CDATA[<p>If you haven&#8217;t seen it already, What&#8217;s Shaking, NZ? version 1.2 for Android released recently. You can get it from the <a href="https://play.google.com/store/apps/details?id=speakman.whatsshakingnz">Play Store</a> right now.</p>
+
+<p>This version features a UI refresh, some bug fixes, device rotation support and a tablet layout!</p>
+
+<!-- more -->
+
+
+<p>Here is a full list of new features and bug fixes:</p>
+
+<ul>
+<li>Added tablet support - supporting a two-pane layout, rather than the tabbed layout which is much better suited to smaller devices, such as phones.</li>
+<li>Added landscape support - no longer forced to portrait on all devices! You can rotate to your hearts content.</li>
+<li>Added a message explaining what an earthquakes &#8216;status&#8217; means - simply tap on the status to find out!</li>
+<li>Added an option to only be notified about &#8216;reviewed&#8217; quakes (turned on by default). This fixes the bug where notifications were often showing up for &#8216;ghost quakes&#8217; - quakes that the Geonet sensors detected, but didn&#8217;t really happen, or were much smaller than initially detected as.</li>
+<li>Updated UI with Roboto font and better spacing for list items.</li>
+<li>Updated earthquake map markers to have a gradual colour change, rather than the red &amp; blue from before.</li>
+<li>Upgraded to Google Maps v2. This requires Android 2.2 (FroYo) and up - if you&#8217;re running Android 2.1, you can still download the old version of What&#8217;s Shaking. This also requires up-to-date Google Play Services - mostly, this is updated automatically for you and you shouldn&#8217;t have to worry about this!</li>
+<li>Fixed a bug where notifications would sometimes show up even when disabled.</li>
+</ul>
+
+
+<p>Check out the <a href="../../../../../android/">Android</a> page for screenshots, or go <a href="https://play.google.com/store/apps/details?id=speakman.whatsshakingnz">download now</a>!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Windows Phone 8 Initial Release]]></title>

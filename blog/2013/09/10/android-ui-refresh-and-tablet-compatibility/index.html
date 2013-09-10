@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Windows Phone 8 Initial Release - What's Shaking, NZ?</title>
+  <title>Android UI Refresh and Tablet Compatibility - What's Shaking, NZ?</title>
   <meta name="author" content="Adam Speakman">
 
   
-  <meta name="description" content="Today the Windows Phone 8 version of What&#8217;s Shaking, NZ? was released - get it on the Windows Phone App Store now. If you&#8217;ve been using &hellip;">
+  <meta name="description" content="If you haven&#8217;t seen it already, What&#8217;s Shaking, NZ? version 1.2 for Android released recently. You can get it from the Play Store right &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://adamsp.github.com/wsnz-website/blog/2012/12/18/windows-phone-8-initial-release/">
+  <link rel="canonical" href="http://adamsp.github.com/wsnz-website/blog/2013/09/10/android-ui-refresh-and-tablet-compatibility/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -81,7 +81,7 @@
   
   <header>
     
-      <h1 class="entry-title">Windows Phone 8 Initial Release</h1>
+      <h1 class="entry-title">Android UI Refresh and Tablet Compatibility</h1>
     
     
       <p class="meta">
@@ -97,31 +97,35 @@
   
 
 
-<time datetime="2012-12-18T16:09:00+13:00" pubdate data-updated="true">Dec 18<span>th</span>, 2012</time>
+<time datetime="2013-09-10T19:49:00+12:00" pubdate data-updated="true">Sep 10<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>Today the Windows Phone 8 version of What&#8217;s Shaking, NZ? was released - get it on the <a href="http://www.windowsphone.com/en-nz/store/app/what-shaking-nz/8c5077db-6a9a-4c29-b095-42fea91874d9">Windows Phone App Store now</a>. If you&#8217;ve been using the Windows Phone 7 version on your Windows Phone 8 handset be sure to upgrade, as this new version is much faster, taking advantage of a number of features only available on Windows Phone 8.</p>
+<div class="entry-content"><p>If you haven&#8217;t seen it already, What&#8217;s Shaking, NZ? version 1.2 for Android released recently. You can get it from the <a href="https://play.google.com/store/apps/details?id=speakman.whatsshakingnz">Play Store</a> right now.</p>
+
+<p>This version features a UI refresh, some bug fixes, device rotation support and a tablet layout!</p>
 
 <!-- more -->
 
 
-<p>In the recent <a href="../../14/windows-phone-7-update-1-dot-3/">post</a> detailing the recent Windows Phone 7 update, I talked about the new features added in that update - quake status (reviewed/automatically reported), quake location and the option to show <em>all</em> quakes. These features are of course also present in this new Windows Phone 8 version.</p>
+<p>Here is a full list of new features and bug fixes:</p>
 
-<p>On top of these new features though (which you can read about in detail in the post linked above, or on the <a href="../../../../../windows-phone/">Windows Phone</a> page) are of course the WP8-specific features.</p>
+<ul>
+<li>Added tablet support - supporting a two-pane layout, rather than the tabbed layout which is much better suited to smaller devices, such as phones.</li>
+<li>Added landscape support - no longer forced to portrait on all devices! You can rotate to your hearts content.</li>
+<li>Added a message explaining what an earthquakes &#8216;status&#8217; means - simply tap on the status to find out!</li>
+<li>Added an option to only be notified about &#8216;reviewed&#8217; quakes (turned on by default). This fixes the bug where notifications were often showing up for &#8216;ghost quakes&#8217; - quakes that the Geonet sensors detected, but didn&#8217;t really happen, or were much smaller than initially detected as.</li>
+<li>Updated UI with Roboto font and better spacing for list items.</li>
+<li>Updated earthquake map markers to have a gradual colour change, rather than the red &amp; blue from before.</li>
+<li>Upgraded to Google Maps v2. This requires Android 2.2 (FroYo) and up - if you&#8217;re running Android 2.1, you can still download the old version of What&#8217;s Shaking. This also requires up-to-date Google Play Services - mostly, this is updated automatically for you and you shouldn&#8217;t have to worry about this!</li>
+<li>Fixed a bug where notifications would sometimes show up even when disabled.</li>
+</ul>
 
-<p>The first time you start What&#8217;s Shaking, NZ? you may notice that the app starts up faster - it no longer has a startup screen. Microsoft have now made these optional, which is useful for apps (such as What&#8217;s Shaking, NZ?) that don&#8217;t have a lot to do during startup. The list view should now be a little faster as well, as it uses a new, faster control. This wasn&#8217;t exactly a problem previously, but every bit of performance is important.</p>
 
-<p>I&#8217;ve also enabled what&#8217;s called &#8220;fast app resume&#8221; - meaning that if the app is running already, you can now get back into it quickly by tapping the tile on the home screen. Previously this would terminate the old instance of the app and create a new one, which took quite some time. Now it simply brings the existing one to the foreground (which you could do previously by holding down the Back key and selecting the app from those shown). This makes for a much nicer experience when switching between applications, as the phone is much more responsive and apps appear to load a lot faster.</p>
-
-<p>One of the biggest features Windows Phone 8 has over WP7 was multiple live tile sizes - these are included in this initial release. The medium tile shows you the same information as before (number of quakes in the last 24 hours, with magnitude, depth and time of the latest quake on the back of the tile), while the large tile now also shows you the location of the latest quake.</p>
-
-<p>Those features (along with those mentioned in the <a href="../../14/windows-phone-7-update-1-dot-3/">previous post</a>) are the most noticeable ones. In addition, there have been quite a few changes behind the scenes - bug fixes, changes, improvements, and preparations for future features. You can have a look at these on <a href="https://github.com/adamsp/wsnz-windowsphone/commits/master">Github</a> if you&#8217;re interested.</p>
-
-<p>Feel free to <a href="http://twitter.com/WhatsShakingNZ">tweet me</a> if you have any comments or suggestions, or you can email me direct from the app.</p>
+<p>Check out the <a href="../../../../../android/">Android</a> page for screenshots, or go <a href="https://play.google.com/store/apps/details?id=speakman.whatsshakingnz">download now</a>!</p>
 </div>
 
 
@@ -144,21 +148,15 @@
   
 
 
-<time datetime="2012-12-18T16:09:00+13:00" pubdate data-updated="true">Dec 18<span>th</span>, 2012</time>
+<time datetime="2013-09-10T19:49:00+12:00" pubdate data-updated="true">Sep 10<span>th</span>, 2013</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/news/'>news</a>, <a class='category' href='/blog/categories/windows-phone/'>windows-phone</a>, <a class='category' href='/blog/categories/windows-phone-8/'>windows-phone-8</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.whatsshaking.co.nz/blog/2012/12/18/windows-phone-8-initial-release/" data-via="WhatsShakingNZ" data-counturl="http://www.whatsshaking.co.nz/blog/2012/12/18/windows-phone-8-initial-release/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.whatsshaking.co.nz/blog/2013/09/10/android-ui-refresh-and-tablet-compatibility/" data-via="WhatsShakingNZ" data-counturl="http://www.whatsshaking.co.nz/blog/2013/09/10/android-ui-refresh-and-tablet-compatibility/" >Tweet</a>
   
   
   
@@ -167,10 +165,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2012/12/14/windows-phone-7-update-1-dot-3/" title="Previous Post: Windows Phone 7 update 1.3">&laquo; Windows Phone 7 update 1.3</a>
+        <a class="basic-alignment left" href="/blog/2012/12/18/windows-phone-8-initial-release/" title="Previous Post: Windows Phone 8 Initial Release">&laquo; Windows Phone 8 Initial Release</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/09/10/android-ui-refresh-and-tablet-compatibility/" title="Next Post: Android UI Refresh and Tablet Compatibility">Android UI Refresh and Tablet Compatibility &raquo;</a>
       
     </p>
   </footer>
